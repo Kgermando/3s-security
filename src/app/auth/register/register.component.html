@@ -1,0 +1,67 @@
+<main class="container form-signin w-100 m-auto ">
+    <form (ngSubmit)="onSubmit()">
+        <img class="mb-4" src="assets/images/logo-1.png" alt="" width="72" height="57">
+        <h1 class="h3 mb-3 fw-normal">Veuillez vous connecter</h1>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" [(ngModel)]="fullname" name="fullname"
+                    placeholder="Nom complet">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="email" class="form-control" [(ngModel)]="email" name="email"
+                    placeholder="name@example.com">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" [(ngModel)]="phone" name="phone" placeholder="Telephone">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" [(ngModel)]="title" name="title" placeholder="Titre">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="password" class="form-control" [(ngModel)]="password" name="password"
+                    placeholder="Mot de passe">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input type="password" class="form-control" [(ngModel)]="password_confirm" name="password_confirm"
+                    placeholder="Confirmez votre mot de passe">
+            </div>
+            <div class="col-md-6 mb-3">
+                <select class="form-select form-select-md" [(ngModel)]="role" name="role">
+                    <option value="Admin" selected>Admin</option>
+                    <option value="User">User</option>
+                    <option value="Support">Support</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <select class="form-select form-select-md" [(ngModel)]="permission" name="permission">
+                    <option value="CR" selected>CR</option>
+                    <option value="CRU">CRU</option>
+                    <option value="RU">RU</option>
+                    <option value="CRUD">CRUD</option>
+                </select>
+            </div>
+            <div class="col-md-6 form-check text-start">
+                <input class="form-check-input" type="checkbox" [(ngModel)]="status" name="status" id="flexCheckDefault"
+                    value="true" checked>
+                <label class="form-check-label" for="flexCheckDefault">
+                    Status du compte
+                </label>
+            </div>
+        </div>
+
+        @if (isLoading) {
+        <button class="btn btn-primary w-100 py-2" type="submit" disabled>
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </button>
+
+        } @else {
+        <button class="btn btn-primary w-100 py-2" type="submit">
+            Créer le compte
+        </button>
+        }
+        <p class="mt-5 mb-3 text-body-secondary">&copy; <a href="http://ictech.dev" target="_blank">ICTECH {{dateY}}</a>
+        </p>
+    </form>
+</main>

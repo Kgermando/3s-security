@@ -1,0 +1,1508 @@
+{
+	"home1": {
+		"sectionSlider": {
+			"title": "slider",
+			"slides": [
+				{
+					"image": "assets/images/main-slider/slider1/slide1.jpg",
+					"title": "fast cargo services",
+					"subtitle": "Global turnkey logistics and transportation services via sea, land and air. We will protect you from risk."
+				},
+				{
+					"image": "assets/images/main-slider/slider1/slide2.jpg",
+					"title": "world class logistics",
+					"subtitle": "Global turnkey logistics and transportation services via sea, land and air. We will protect you from risk."
+				},
+				{
+					"image": "assets/images/main-slider/slider1/slide3.jpg",
+					"title": "fast delivery services",
+					"subtitle": "Global turnkey logistics and transportation services via sea, land and air. We will protect you from risk."
+				}
+			]
+		},
+		"sectionHowItWorks": {
+			"title": "3S-SECURITY",
+			"section_image": "assets/images/women.png",   
+			"services1": [
+				{
+					"icon": "fa-solid fa-dog",
+					"title": "GARDIENNAGE : MAÎTRE CHIEN",
+					"subtitle": "Ce service est proposé pour des espaces ouverts et des parkings, pour le contrôle des valises ou des véhicules. Le guide du chien est un agent de gardiennage bien formé en relation d’équipe avec son chien. Le chien est sociable, n’est pas agressif et n’écoute que son guide. Il réside chez son maître afin de créer une étroite relation de confiance. Nous utilisons uniquement les races de bergers et c’est dans le strict respect des prescriptions légales et médicales."
+				},
+				{
+					"icon": "fa-solid fa-person-walking-arrow-loop-left",
+					"title": "GARDIENS RONDIERS",
+					"subtitle": "Très efficace en terme d'intervation pour effectuer une levée de doute dans le cadre de mission de télé sécurité, à détecter l’origine de l’alarme, à prévenir ou faire prévenir les services ou personnes concernées, à procéder aux actions de sauvegarde adaptées, assurer la continuité de la protection du site et enfin rendre compte de sa mission."
+				},
+				{
+					"icon": "fa-solid fa-person-circle-check",
+					"title": "GARDIENNAGE : AGENTS DE PARKING",
+					"subtitle": "Veillent au bon stationnement des véhicules de façon à optimiser la capacité du parking tout en veillant à ce que les voies de secours restent accessibles et assurent la protection des véhicules et des personnes contre toute agression ou vandalisme."
+				}
+			],
+			"services2": [
+				{
+					"icon": "fa-solid fa-user-shield",
+					"title": "GARDIENNAGE : AGENT DE SECURITE",
+					"subtitle": "Nous sommes expérimentés en adaptation de solutions et de service de sécurité en fonction des besoins des clients, opérant dans plusieurs secteurs et plusieurs régions, quand il s’agit de déployer nos agents de sécurité d’une qualité inégalée qui sauront répondre à votre besoin, peu importe votre distance et votre secteur d’activité."
+				},
+				{
+					"icon": "fa-solid fa-desktop",
+					"title": "Télésurveillance",
+					"subtitle": "La télésurveillance est plus qu’une simple alarme ou d’une camera. Seule la protection 24 h sur 24 et 7 jours sur 7 vous assurera une assistance immédiate et adéquate. A la moindre détection de fumée ou de feu, vous êtes immédiatement informé. Si quelqu’un essaye de forcer votre serrure, vous êtes déjà au courant, quoi de plus mieux."
+				},
+				{
+					"icon": "fa-solid fa-bell",
+					"title": "Système d’alarme",
+					"subtitle": "Vandalisme, vol d'équipements et de données, dégât d'eau et incendie menacent votre entreprise en votre absence. Partez l'esprit tranquille et laissez le système de télésurveillance garder l’œil sur vos affaires. 3 S - Security vous offre même une double connexion à sa centrale de surveillance advenant le cas où la ligne téléphonique de votre entreprise serait coupée."
+				}
+			]
+		},
+		"sectionShipment": {
+			"title": "We give you complete control of your shipment. and help you.",
+			"section_image": "assets/images/background/bg12.jpg",
+			"section_video": "https://player.vimeo.com/video/66491481",
+			"description": "<p class=\"m-b15\">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, no when an unknown printer took a galley of type and scrambled.</p> <ul class=\"list-check-circle primary m-b20\"> <li>Simply dummy text of the Lorem Ipsum is printing and type setting. </li> <li>And typesetting industry Lorem Ipsum has been. Ipsum has been the.</li> <li>Dummy text of the printing and typesetting industry. Text of the printing.</li> </ul>",
+			"figures": [
+				{
+					"count": 450,
+					"title": "Delivered Packages"
+				},
+				{
+					"count": 45,
+					"title": "Countries Covered"
+				},
+				{
+					"count": 670,
+					"title": "Satisfied Clients"
+				},
+				{
+					"count": 1500,
+					"title": "Tons of Goods"
+				}
+			]
+		},
+		"sectionProjects": {
+			"title": "Since <span class=\"site-text-primary\">10 years</span> we are providing you some special services.",
+			"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sit amet, consectetur adipiscing elit, sed doeius mod tempor sed do eiusmod",
+			"projects": [
+				{
+					"image": "assets/images/gallery/portrait/pic1.jpg",
+					"title": "Less than truckload",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic2.jpg",
+					"title": "Trucking & Warehousing",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic3.jpg",
+					"title": "Sea Delivery",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic4.jpg",
+					"title": "Logistic Services",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic5.jpg",
+					"title": "Ground Shipping",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic6.jpg",
+					"title": "International Air Freight",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic7.jpg",
+					"title": "Rail Shipping",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic8.jpg",
+					"title": "Frost Shipping",
+					"subtitle": "Imagination... What we can easily see is only a small percentage of what is possible"
+				}
+			]
+		},
+		"sectionTeam": {
+			"title": "Equipe",
+			"members": [
+				{
+					"image": "assets/images/our-team5/p1.jpg",
+					"name": "Susan Black",
+					"designation": "SEO Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p2.jpg",
+					"name": "Joe Johnson",
+					"designation": "Co-Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p3.jpg",
+					"name": "May Horton",
+					"designation": "Marketer"
+				}
+			]
+		},
+		"sectionBlog": {
+			"title": "Evenements",
+			"blogs": [
+				{
+					"day": 9,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic5.jpg",
+					"title": "A partnership based trust.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 15,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic6.jpg",
+					"title": "An anchor in a new era.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 20,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic7.jpg",
+					"title": "Fueling your logistic chain.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				}
+			]
+		},
+		"sectionWhyChooseUs": {
+			"title": "Pourquoi Nous ?",
+			"features": [
+				{
+					"icon": "fa-solid fa-shield-alt",
+					"title": "Contrôle et filtrage d’accès",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra.",
+					"image": "assets/images/bus.png"
+				},
+				{
+					"icon": "fa-solid fa-eye",
+					"title": "Services de surveillance statique",
+					"subtitle": "Nous offrons des services de surveillance statique pour assurer la sécurité de vos locaux et de vos biens, avec des agents formés et expérimentés.",
+					"image": "assets/images/bus.png"
+				},
+				{
+					"icon": "fa-solid fa-shield-halved",
+					"title": "Rondes de surveillance et de vérification technique",
+					"subtitle": "Nous effectuons des rondes régulières pour vérifier la sécurité et l'intégrité de vos installations, en détectant et en signalant toute anomalie ou problème technique.",
+					"image": "assets/images/bus.png"
+				},
+				{
+					"icon": "fa-solid fa-user-friends",
+					"title": "Accompagnement de personnes (visiteurs ou collaborateurs)",
+					"subtitle": "Nous assurons un accompagnement personnalisé pour vos visiteurs ou collaborateurs, garantissant leur sécurité et leur confort tout au long de leur séjour.",
+					"image": "assets/images/bus.png"
+				},
+				{
+					"icon": "fa-solid fa-box",
+					"title": "Contrôle de vos colis et livraison",
+					"subtitle": "Nous assurons un contrôle rigoureux de vos colis et de vos livraisons pour garantir leur sécurité et leur intégrité à chaque étape du processus.",
+					"image": "assets/images/bus.png"
+				},
+				{
+					"icon": "fa-solid fa-key",
+					"title": "Gestion des clés et des différents moyens d’accès",
+					"subtitle": "Nous assurons la gestion des clés et des différents moyens d’accès avec une rigueur et une précision exemplaires, garantissant ainsi la sécurité et l'intégrité de vos locaux.",
+					"image": "assets/images/bus.png"
+				}
+			]
+		},
+		"sectionTestimonials": {
+			"title": "N'hésitez pas à nous écrire !", 
+			"testimonials": [ ] 
+		},
+		"sectionTestimonials1": {
+			"title": "Ce que disent nos clients ?", 
+			"testimonials": [
+				{
+					"image": "assets/images/testimonials/pic1.jpg",
+					"name": "Collis Ta'eed",
+					"designation": "Manager",
+					"description": "Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry."
+				},
+				{
+					"image": "assets/images/testimonials/pic2.jpg",
+					"name": "John Doe",
+					"designation": "Manager",
+					"description": "Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry."
+				},
+				{
+					"image": "assets/images/testimonials/pic3.jpg",
+					"name": "Mary Jane",
+					"designation": "Manager",
+					"description": "Excellent Customer support!.The template itself is very extended. simply dummy text of the printing and industry."
+				}
+			]
+		},
+		"sectionClients": {
+			"title": "clients",
+			"clients": [
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo7.png",
+				"assets/images/client-logo/logo8.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png"
+			]
+		},
+		"sectionPlans": {
+			"title": "Our Plans",
+			"plans": [
+				{
+					"currency": "$",
+					"price": "29",
+					"tenure": "Month",
+					"name": "Basic",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "49",
+					"tenure": "Month",
+					"name": "Pro",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "99",
+					"tenure": "Month",
+					"name": "Premium",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				}
+			]
+		}
+	},
+	"home2": {
+		"sectionSlider": {
+			"title": "slider",
+			"slides": [
+				{
+					"image": "assets/images/main-slider/slider2/slide1.jpg",
+					"title": "fast delivery services"
+				},
+				{
+					"image": "assets/images/main-slider/slider2/slide2.jpg",
+					"title": "world class logistics"
+				},
+				{
+					"image": "assets/images/main-slider/slider2/slide3.jpg",
+					"title": "fast airway delivery"
+				}
+			]
+		},
+		"sectionWhyChooseUs": {
+			"title": "Why Choose Us",
+			"features": [
+				{
+					"icon": "flaticon-people-1",
+					"title": "Pourquoi Nous ?",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-pencil",
+					"title": "Management & Reporting",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-wallet",
+					"title": "Freight Payment Options",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-solution",
+					"title": "Compliance Solutions",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-time-passing",
+					"title": "Timely Delivery",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-customer-service",
+					"title": "24 / 7 Service",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				}
+			]
+		},
+		"sectionShipment": {
+			"title": "We help you out and give you complete control of the shipment.",
+			"section_image": "assets/images/worker.png",
+			"description": "<p class=\"m-b15\">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, no when an unknown printer took a galley of type and scrambled.</p> <ul class=\"list-check-circle primary m-b15\"> <li>Simply dummy text of the Lorem Ipsum is printing and type setting. </li> <li>Dummy text of the printing and typesetting industry. Text of the printing</li> <li>And typesetting industry Lorem Ipsum has been. Ipsum has been the </li> </ul>",
+			"figures": [
+				{
+					"count": 450,
+					"title": "Delivered Packages"
+				},
+				{
+					"count": 45,
+					"title": "Countries Covered"
+				},
+				{
+					"count": 670,
+					"title": "Satisfied Clients"
+				},
+				{
+					"count": 1500,
+					"title": "Tons of Goods"
+				}
+			]
+		},
+		"sectionServices": {
+			"title": "All Services",
+			"services": [
+				{
+					"image": "assets/images/gallery/portrait/pic1.jpg",
+					"col_style": "col-one",
+					"title": "Less than truckload",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic2.jpg",
+					"col_style": "col-one",
+					"title": "Trucking & Warehousing",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic3.jpg",
+					"col_style": "col-one",
+					"title": "Sea Delivery",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic4.jpg",
+					"col_style": "col-two",
+					"title": "Logistic Services",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic5.jpg",
+					"col_style": "col-two",
+					"title": "Ground Shipping",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic6.jpg",
+					"col_style": "col-three",
+					"title": "International Air Freight",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic7.jpg",
+					"col_style": "col-three",
+					"title": "Rail Shipping",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				},
+				{
+					"image": "assets/images/gallery/portrait/pic8.jpg",
+					"col_style": "col-three",
+					"title": "Frost Shipping",
+					"subtitle": "Go beyond logistics, make the world go round and revolution business lorem ipsum dolor sit amet, conse ctetur adipiscing elit"
+				}
+			]
+		},
+		"sectionTeam": {
+			"title": "Equipe",
+			"members": [
+				{
+					"image": "assets/images/our-team5/pic7.jpg",
+					"name": "Susan Black",
+					"designation": "Manager"
+				},
+				{
+					"image": "assets/images/our-team5/pic8.jpg",
+					"name": "Joe Johnson",
+					"designation": "Manager"
+				},
+				{
+					"image": "assets/images/our-team5/pic9.jpg",
+					"name": "May Horton",
+					"designation": "Chief operating"
+				},
+				{
+					"image": "assets/images/our-team5/pic10.jpg",
+					"name": "May Horton",
+					"designation": "Chief operating"
+				}
+			]
+		},
+		"sectionBlog": {
+			"title": "Recents évenements",
+			"blogs": [
+				{
+					"day": 9,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic5.jpg",
+					"title": "A partnership based trust.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 15,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic6.jpg",
+					"title": "An anchor in a new era.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 20,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic7.jpg",
+					"title": "Fueling your logistic chain.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				}
+			]
+		},
+		"sectionVideo": {
+			"title": "Quality never goes out of style.",
+			"subtitle": "We take pride in serving our customers safely. We are hear to help you out.",
+			"section_image": "assets/images/background/bg7.jpg",
+			"section_video": "https://player.vimeo.com/video/66491481"
+		},
+		"sectionTestimonials": {
+			"title": "Our Client Say",
+			"testimonials": [
+				{
+					"image": "assets/images/testimonials/pic1.jpg",
+					"name": "Devid Smith",
+					"designation": "Manager",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.industry's standard dummy text ever since the 1500."
+				},
+				{
+					"image": "assets/images/testimonials/pic2.jpg",
+					"name": "John Doe",
+					"designation": "Manager",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.industry's standard dummy text ever since the 1500."
+				},
+				{
+					"image": "assets/images/testimonials/pic3.jpg",
+					"name": "Paul Smith",
+					"designation": "Manager",
+					"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.industry's standard dummy text ever since the 1500."
+				}
+			]
+		},
+		"sectionPlans": {
+			"title": "Our Plans",
+			"plans": [
+				{
+					"currency": "$",
+					"price": "29",
+					"tenure": "Month",
+					"name": "Basic",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "49",
+					"tenure": "Month",
+					"name": "Pro",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "99",
+					"tenure": "Month",
+					"name": "Premium",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				}
+			]
+		}
+	},
+	"home3": {
+		"sectionSlider": {},
+		"sectionWhatWeDo": {
+			"title": "what we do",
+			"subtitle": "Présentation de Société", 
+			"image": "assets/images/gallery/pic4.jpg",
+			"description": " La société « 3 S - Security » est spécialisée dans la sécurité des personnes et des biens. Elle exerce dans des secteurs variés tel que: Gardiennage et Surveillance, Protection rapprochée, Événementiel, Accompagnement, Hôtesses, Contrôle d’accès, Télésurveillance & les systèmes d’alarmes. Nous organisons et remplissons tous les types de missions allant de la protection rapprochée des personnalités jusqu’au gardiennage, en passant par la sécurité événementielle (cérémonies ou réceptions) et la surveillance de points sensibles. Notre mot d’ordre est: « Protéger, Prévenir, Préserver », car notre premier travail est d’anticiper tout type de danger et être prêt à réagir. Ensuite, nous avons pour mission de calmer la situation et de garder le contrôle: veillez à l’ordre. Pour y arriver, il nous est très important, voir une obligation, de passer au préalable par un audit des besoins du clients en hommes, équipements ainsi qu’une visite d’inspection sur les lieux concernés. Ces audits sont menés par nos cadres hautement spécialisés qui conseillent et détermineront les mesures et les dispositifs à prendre afin de répondre plus efficacement aux besoins et objectifs fixés. Afin de répondre efficacement aux besoins du clients et satisfaire ses demandes, 3S - Security met un accent particulier sur la formation de son personnel."
+		},
+		"sectionWhyChooseUs": {
+			"title": "Why Choose us",
+			"features": [
+				{
+					"title": "Fast Worldwide delivery",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet odio id lectus tristique luctus. Morbi id sodales orcit."
+				},
+				{
+					"title": "Safety & Compliance",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet odio id lectus tristique luctus. Morbi id sodales orcit."
+				}
+			]
+		},
+		"sectionSkills": {
+			"title": "Our Skills",
+			"subtitle": "<span class=\"site-text-primary\"> 25 years</span> of experience in Logistics services",
+			"features": [
+				{
+					"title": "Ground Transport",
+					"count": "85"
+				},
+				{
+					"title": "Cargo",
+					"count": "78"
+				},
+				{
+					"title": "Logistic Services",
+					"count": "65"
+				},
+				{
+					"title": "Warehousing",
+					"count": "40"
+				}
+			]
+		},
+		"sectionVideo": {
+			"title": "Quality never goes out of style.",
+			"subtitle": "We take pride in serving our customers safely. We are hear to help you out.",
+			"section_image": "assets/images/background/bg7.jpg",
+			"section_video": "https://player.vimeo.com/video/66491481"
+		},
+		"sectionTeam": {
+			"title": "Equipe",
+			"members": [
+				{
+					"image": "assets/images/our-team5/p1.jpg",
+					"name": "Susan Black",
+					"designation": "SEO Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p2.jpg",
+					"name": "Joe Johnson",
+					"designation": "Co-Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p3.jpg",
+					"name": "May Horton",
+					"designation": "Marketer"
+				}
+			]
+		},
+		"sectionServices": {
+			"title": "Nos Services",
+			"services": [
+				{
+					"icon": "flaticon-transport-4",
+					"image": "assets/images/background/bg1.jpg",
+					"title": "Cargo Transportation",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-truck",
+					"image": "assets/images/background/bg2.jpg",
+					"title": "Ground Shipping",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-airplane",
+					"image": "assets/images/background/bg3.jpg",
+					"title": "Air Freight",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-ship-1",
+					"image": "assets/images/background/bg4.jpg",
+					"title": "Ocean Freight",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-forklift-1",
+					"image": "assets/images/background/bg5.jpg",
+					"title": "Packaging & Storage",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-transport-6",
+					"image": "assets/images/background/bg6.jpg",
+					"title": "Road Freight",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				}
+			]
+		},
+		"sectionBlog": {
+			"title": "Evenements",
+			"blogs": [
+				{
+					"day": 9,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic5.jpg",
+					"title": "A partnership based trust.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 15,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic6.jpg",
+					"title": "An anchor in a new era.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				},
+				{
+					"day": 20,
+					"month": "Sept",
+					"year": 2024,
+					"author": "John",
+					"comments": 14,
+					"image": "assets/images/blog/grid/pic7.jpg",
+					"title": "Fueling your logistic chain.",
+					"short_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+				}
+			]
+		},
+		"sectionClients": {
+			"title": "clients",
+			"clients": [
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png"
+			]
+		}
+	},
+	"aboutUs": {
+		"sectionWhatWeDo": {
+			"title": "Qui sommes-nous ?",
+			"subtitle": "Présentation de la Société", 
+			"image": "assets/images/about.png", 
+			"description": "La société « 3 S - Security » est spécialisée dans la sécurité des personnes et des biens. Elle exerce dans des secteurs variés tel que: Gardiennage et Surveillance, Protection rapprochée, Événementiel, Accompagnement, Hôtesses, Contrôle d’accès, Télésurveillance & les systèmes d’alarmes. Nous organisons et remplissons tous les types de missions allant de la protection rapprochée des personnalités jusqu’au gardiennage, en passant par la sécurité événementielle (cérémonies ou réceptions) et la surveillance de points sensibles. Notre mot d’ordre est: « Protéger, Prévenir, Préserver », car notre premier travail est d’anticiper tout type de danger et être prêt à réagir. Ensuite, nous avons pour mission de calmer la situation et de garder le contrôle: veillez à l’ordre. Pour y arriver, il nous est très important, voir une obligation, de passer au préalable par un audit des besoins du clients en hommes, équipements ainsi qu’une visite d’inspection sur les lieux concernés. Ces audits sont menés par nos cadres hautement spécialisés qui conseillent et détermineront les mesures et les dispositifs à prendre afin de répondre plus efficacement aux besoins et objectifs fixés. Afin de répondre efficacement aux besoins du clients et satisfaire ses demandes, 3S - Security met un accent particulier sur la formation de son personnel. Pour vos événements ponctuels et vos besoins quotidiens, nos équipes sont uniquement constituées de professionnels. Qu’ils soient spécialistes de la protection rapprochée, maîtres chien, agents de sécurité, d’accueil ou voituriers, hommes ou femmes, nos agents sont parfaitement aptes à répondre à l’ensemble des missions que vous nous confiez: public ou privé. Quels que soient vos besoins, 3 S - Security répondra à vos demandes avec efficacité et sans faille. Nos équipes opèrent 24h/24 et 7jrs/7 dans la rapidité et l’efficacité."
+		},
+		"sectionWhyChooseUs": {
+			"title": "Pourquoi Nous ?",
+			"features": [
+				{
+					"title": "Surveillance et Gardiennage",
+					"description": "La surveillance et le gardiennage ont pris une place prépondérante dans l’environnement et dans la société moderne. Pour protéger se protéger ou protéger ses biens, il faut penser aux professionnels et aux qualifiés; il faut penser à 3 S - Security."
+				},
+				{
+					"title": "Mode opératoire",
+					"description": "Notre mode opératoire a fait l’objet d’une étude bien approfondie dans le domaine de sécurité ."
+				}
+			]
+		},
+		"sectionSkills": {
+			"title": "Notre profil",
+			"subtitle": "",
+			"features": [
+				{
+					"title": "Bonne présentation",
+					"count": "100"
+				},
+				{
+					"title": "Tenue en adéquation avec la mission",
+					"count": "100"
+				},
+				{
+					"title": "Courtoisie",
+					"count": "100"
+				},
+				{
+					"title": "Respect",
+					"count": "100"
+				},
+				{
+					"title": "Diplomatie",
+					"count": "100"
+				},
+				{
+					"title": "Autorité naturelle",
+					"count": "100"
+				}
+			]
+		},
+		"sectionServices": {
+			"title": "Nos Atouts",
+			"services": [
+				{
+					"icon": "flaticon-transport-4",
+					"image": "assets/images/sprinter-s3.png",
+					"title": "Contrôle et filtrage d’accès",
+					"subtitle": ""
+				}, 
+				{
+					"icon": "flaticon-truck",
+					"image": "assets/images/background/bg2.jpg", 
+					"title": "Services de surveillance statique",
+					"subtitle": ""
+				},
+				{
+					"icon": "flaticon-airplane",
+					"image": "assets/images/background/bg3.jpg",
+					"title": "Rondes de surveillance et de vérification technique",
+					"subtitle": ""
+				},
+				{
+					"icon": "flaticon-ship-1",
+					"image": "assets/images/background/bg4.jpg",
+					"title": "Accompagnement de personnes (visiteurs ou collaborateurs)",
+					"subtitle": ""
+				},
+				{
+					"icon": "flaticon-forklift-1",
+					"image": "assets/images/background/bg5.jpg",
+					"title": "Contrôle de vos colis et livraison",
+					"subtitle": ""
+				},
+				{
+					"icon": "flaticon-transport-6",
+					"image": "assets/images/background/bg6.jpg",
+					"title": "Gestion des clés et des différents moyens d’accès",
+					"subtitle": ""
+				}
+			]
+		},
+		"sectionTeam": {
+			"title": "Notre équipe", 
+			"members": [
+				{
+					"image": "assets/images/our-team5/p1.jpg",
+					"name": "Susan Black",
+					"designation": "SEO Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p2.jpg",
+					"name": "Joe Johnson",
+					"designation": "Co-Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p3.jpg",
+					"name": "May Horton",
+					"designation": "Marketer"
+				}
+			]
+		},
+		"sectionVideo": {
+			"title": "Quality never goes out of style.",
+			"subtitle": "We take pride in serving our customers safely. We are hear to help you out.",
+			"section_image": "assets/images/background/bg7.jpg",
+			"section_video": "https://player.vimeo.com/video/66491481"
+		},
+		"sectionPlans": {
+			"title": "Our Plans",
+			"plans": [
+				{
+					"currency": "$",
+					"price": "29",
+					"tenure": "Month",
+					"name": "Basic",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "49",
+					"tenure": "Month",
+					"name": "Pro",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				},
+				{
+					"currency": "$",
+					"price": "99",
+					"tenure": "Month",
+					"name": "Premium",
+					"features": [
+						"Per Mile",
+						"6000 kg load",
+						"850 kg / pallet",
+						"Warehousing",
+						"Free Packaging",
+						"24/7 support"
+					]
+				}
+			]
+		}
+	},
+	"faq": {
+		"sectionFAQ": {
+			"title": "FAQ",
+			"faqs": [
+				{
+					"que": "How do we work?",
+					"ans": "Progressively generate synergistic total linkage through cross-media intellectual capital. Enthusiastically parallel task team building e-tailers without standards compliant initiatives. Progressively monetize client-centric outsourcing with excellent communities."
+				},
+				{
+					"que": "What services do we offer?",
+					"ans": "Progressively generate synergistic total linkage through cross-media intellectual capital. Enthusiastically parallel task team building e-tailers without standards compliant initiatives. Progressively monetize client-centric outsourcing with excellent communities."
+				},
+				{
+					"que": "What kind of vehicles do we have?",
+					"ans": "Progressively generate synergistic total linkage through cross-media intellectual capital. Enthusiastically parallel task team building e-tailers without standards compliant initiatives. Progressively monetize client-centric outsourcing with excellent communities."
+				},
+				{
+					"que": "How reliable are we?",
+					"ans": "Progressively generate synergistic total linkage through cross-media intellectual capital. Enthusiastically parallel task team building e-tailers without standards compliant initiatives. Progressively monetize client-centric outsourcing with excellent communities."
+				}
+			]
+		},
+		"sectionHelp": {
+			"title": "Need any help!",
+			"subtitle": "Find answers to frequently asked questions about Bizipress, contacts and general customer account information",
+			"email": "mail@Demo123.com",
+			"contact": "(654) 321-7654"
+		},
+		"sectionClients": {
+			"title": "clients",
+			"clients": [
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png"
+			]
+		}
+	},
+	"ourTeam": {
+		"sectionTeam1": {
+			"title": "Equipe",
+			"members": [
+				{
+					"image": "assets/images/our-team5/pic7.jpg",
+					"name": "Susan Black",
+					"designation": "Manager"
+				},
+				{
+					"image": "assets/images/our-team5/pic8.jpg",
+					"name": "Joe Johnson",
+					"designation": "Manager"
+				},
+				{
+					"image": "assets/images/our-team5/pic9.jpg",
+					"name": "May Horton",
+					"designation": "Chief operating"
+				},
+				{
+					"image": "assets/images/our-team5/pic10.jpg",
+					"name": "May Horton",
+					"designation": "Chief operating"
+				}
+			]
+		},
+		"sectionTeam2": {
+			"title": "Equipe",
+			"members": [
+				{
+					"image": "assets/images/our-team5/p1.jpg",
+					"name": "Susan Black",
+					"designation": "SEO Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p2.jpg",
+					"name": "Joe Johnson",
+					"designation": "Co-Founder"
+				},
+				{
+					"image": "assets/images/our-team5/p3.jpg",
+					"name": "May Horton",
+					"designation": "Marketer"
+				}
+			]
+		}
+	},
+	"teamMemberDetail": {
+		"image": "assets/images/our-team5/p1.jpg",
+		"name": "Joe Johnson",
+		"designation": "Co-Founder",
+		"skills": [
+			{
+				"skill": "collaboration",
+				"count": "85"
+			},
+			{
+				"skill": "customer service",
+				"count": "78"
+			},
+			{
+				"skill": "positive attitude",
+				"count": "80"
+			}
+		],
+		"experienceCount": "12 Years",
+		"contact": "+41 555 888 9585",
+		"email": "info@demo.com",
+		"about": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. dummy text of the printing and typesetting industry. </p> <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book. dummy text of the printing and typesetting industry. Phasellus in risus quis lectus iaculis vulputate id quis nisl. </p>",
+		"experience": "<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. dummy text of the printing and typesetting industry. </p> <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book. dummy text of the printing and typesetting industry. Phasellus in risus quis lectus iaculis vulputate id quis nisl. </p> <ul class=\"list-check primary m-b0\"> <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</li> <li>Phasellus in risus quis lectus iaculis vulputate id quis nisl.</li> <li>Amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt</li> </ul>"
+	},
+	"contactUs": {
+		"sectionContact": { 
+			"title": "Coordonnées",
+			"phone": "-",
+			"email": "contact@3s-securitydrc.com",
+			"address": "144 B, 30 juin Commune de Gombe Ville Province de Kinshasa"
+		}
+	},
+	"gallery": {
+		"categories": [
+			{
+				"category": "*",
+				"name": "All"
+			},
+			{
+				"category": ".cat-1",
+				"name": "Cargo"
+			},
+			{
+				"category": ".cat-2",
+				"name": "Logistic"
+			},
+			{
+				"category": ".cat-3",
+				"name": "Storage"
+			},
+			{
+				"category": ".cat-4",
+				"name": "Trucking"
+			},
+			{
+				"category": ".cat-5",
+				"name": "Warehousing"
+			}
+		],
+		"images": [
+			{
+				"category": "cat-1",
+				"image": "assets/images/gallery/pic1.jpg"
+			},
+			{
+				"category": "cat-2",
+				"image": "assets/images/gallery/pic2.jpg"
+			},
+			{
+				"category": "cat-3",
+				"image": "assets/images/gallery/pic3.jpg"
+			},
+			{
+				"category": "cat-4",
+				"image": "assets/images/gallery/pic4.jpg"
+			},
+			{
+				"category": "cat-5",
+				"image": "assets/images/gallery/pic5.jpg"
+			},
+			{
+				"category": "cat-4",
+				"image": "assets/images/gallery/pic6.jpg"
+			},
+			{
+				"category": "cat-3",
+				"image": "assets/images/gallery/pic7.jpg"
+			},
+			{
+				"category": "cat-2",
+				"image": "assets/images/gallery/pic8.jpg"
+			},
+			{
+				"category": "cat-2",
+				"image": "assets/images/gallery/pic1.jpg"
+			}
+		]
+	},
+	"features": {
+		"sectionWhyChooseUs": {
+			"title": "Why Choose Us",
+			"features": [
+				{
+					"icon": "flaticon-people-1",
+					"title": "Pourquoi nous choisir ?",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-pencil",
+					"title": "Management & Reporting",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-wallet",
+					"title": "Freight Payment Options",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-solution",
+					"title": "Compliance Solutions",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-time-passing",
+					"title": "Timely Delivery",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				},
+				{
+					"icon": "flaticon-customer-service",
+					"title": "24 / 7 Service",
+					"subtitle": "Vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra."
+				}
+			]
+		},
+		"sectionCoverage": {
+			"title": "INDUSTRY SECTORS COVERAGE",
+			"subtitle": "Logistics through innovation, dedication, and technology.",
+			"desc_short": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book and delivered packages",
+			"coverage": [
+				{
+					"count": "450",
+					"title": "Delivered Packages"
+				},
+				{
+					"count": "45",
+					"title": "Countries Covered"
+				}
+			]
+		},
+		"sectionClients": {
+			"title": "Our Clients",
+			"clients": [
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo7.png",
+				"assets/images/client-logo/logo8.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png"
+			]
+		}
+	},
+	"services": {
+		"sectionExplore": {
+			"title": "Explore Further",
+			"services": [
+				{
+					"icon": "flaticon-pencil",
+					"title": "Fast Worldwide delivery",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				},
+				{
+					"icon": "flaticon-solution",
+					"title": "Safety & Compliance",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				},
+				{
+					"icon": "flaticon-people-1",
+					"title": "Faster Performance",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nibh euismod."
+				}
+			]
+		},
+		"sectionServices": {
+			"title": "Our Services",
+			"services": [
+				{
+					"image": "assets/images/our-work/pic1.jpg",
+					"title": "Cargo",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				},
+				{
+					"image": "assets/images/our-work/pic2.jpg",
+					"title": "Logistic Services",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				},
+				{
+					"image": "assets/images/our-work/pic3.jpg",
+					"title": "Storage",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				},
+				{
+					"image": "assets/images/our-work/pic4.jpg",
+					"title": "Ground Transport",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				},
+				{
+					"image": "assets/images/our-work/pic5.jpg",
+					"title": "Trucking Services",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				},
+				{
+					"image": "assets/images/our-work/pic6.jpg",
+					"title": "Warehousing",
+					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+				}
+			]
+		},
+		"sectionClients": {
+			"title": "clients",
+			"clients": [
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png",
+				"assets/images/client-logo/logo1.png",
+				"assets/images/client-logo/logo2.png",
+				"assets/images/client-logo/logo3.png",
+				"assets/images/client-logo/logo4.png",
+				"assets/images/client-logo/logo5.png",
+				"assets/images/client-logo/logo6.png"
+			]
+		}
+	},
+	"blogs": {
+		"grid": [
+			{
+				"image": "assets/images/blog/grid/pic1.jpg",
+				"date": "08",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Special handling. extra service",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic2.jpg",
+				"date": "12",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Booking our passage to the.",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic3.jpg",
+				"date": "14",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Possibility in every direction",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic4.jpg",
+				"date": "20",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Fueling your logistic chain.",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic5.jpg",
+				"date": "16",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Booking our passage to the.",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic6.jpg",
+				"date": "18",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Special handling. extra service",
+				"desc_short": "Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			}
+		],
+		"list": [
+			{
+				"image": "assets/images/blog/grid/pic4.jpg",
+				"slider": [],
+				"youtube": "",
+				"vimeo": "",
+				"date": "08",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Go beyond logistics, make the world go round and revolution.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic1.jpg",
+				"slider": [],
+				"youtube": "",
+				"vimeo": "",
+				"date": "12",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Logistics through innovation, dedication, and technology.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "assets/images/blog/grid/pic2.jpg",
+				"slider": [],
+				"youtube": "",
+				"vimeo": "",
+				"date": "15",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Shipments delivered on time with no hassle.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "",
+				"slider": [
+					"assets/images/blog/grid/pic1.jpg",
+					"assets/images/blog/grid/pic2.jpg",
+					"assets/images/blog/grid/pic3.jpg"
+				],
+				"youtube": "",
+				"vimeo": "",
+				"date": "20",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Go beyond logistics, make the world go round and revolution.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "",
+				"slider": [],
+				"youtube": "https://www.youtube.com/embed/jic28SCOuRo",
+				"vimeo": "",
+				"date": "20",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Go beyond logistics, make the world go round and revolution business.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			},
+			{
+				"image": "",
+				"slider": [],
+				"youtube": "",
+				"vimeo": "https://player.vimeo.com/video/153950600",
+				"date": "20",
+				"month": "Sept",
+				"year": "2024",
+				"author": "Robin",
+				"comments": "0",
+				"title": "Shipments delivered on time with no hassle.",
+				"desc_short": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard. Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam."
+			}
+		]
+	},
+	"shop": {
+		"products": [
+			{
+				"image": "assets/images/products/pic-1.jpg",
+				"title": "One Item",
+				"price": "49.00"
+			},
+			{
+				"image": "assets/images/products/pic-2.jpg",
+				"title": "Two Item",
+				"price": "99.00"
+			},
+			{
+				"image": "assets/images/products/pic-3.jpg",
+				"title": "Three Item",
+				"price": "99.00"
+			},
+			{
+				"image": "assets/images/products/pic-4.jpg",
+				"title": "Four Item",
+				"price": "199.00"
+			},
+			{
+				"image": "assets/images/products/pic-5.jpg",
+				"title": "Five Item",
+				"price": "139.00"
+			},
+			{
+				"image": "assets/images/products/pic-6.jpg",
+				"title": "Six Item",
+				"price": "26.00"
+			},
+			{
+				"image": "assets/images/products/pic-7.jpg",
+				"title": "Seven Item",
+				"price": "86.00"
+			},
+			{
+				"image": "assets/images/products/pic-8.jpg",
+				"title": "Eight Item",
+				"price": "56.00"
+			},
+			{
+				"image": "assets/images/products/pic-9.jpg",
+				"title": "Nine Item",
+				"price": "99.00"
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+<div class="section-full bg-white p-tb50">
+    <div class="container">
+
+        <div class="section-content">
+            <div class="owl-carousel home-client-logo owl-btn-vertical-center">
+
+                @for(item of dataListPartenaires; track $index){
+                <div class="item">
+                    <div class="ow-client-logo">
+                        <div class="client-logo mt-img-effect on-color">
+                            <a [href]="item.link" target="_blank">
+                                <img [src]="this.getLink(item.image)" alt="{{ item.name }} ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                }@empty{
+                    
+                }
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,47 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Services</h1>
+  <a class="btn btn-primary" type="button" routerLink="/@admin/services/service-add">Nouveau service</a>
+</div>
+
+
+
+<!-- <h2>Section title</h2> -->
+<div class="table-responsive small">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Titre</th>
+        <th scope="col">Sous titre</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of dataList; track item; let i = $index) {
+      <tr>
+        <td>{{ i + 1 }}</td>
+        <td>{{ item.title }}</td>
+        <td>{{ item.description }}</td>
+        <td>
+          <a href="#" [routerLink]="['/@admin/services/service-edit', item.ID, 'edit']"
+            style="color: blueviolet;">Edit</a>
+          <div class="devider"></div>
+          <a href="#" (click)="delete(item.ID)">Delete</a>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  <ul class="pagination">
+    <li [class.disabled]="currentPage === 1">
+      <a type="button" (click)="onPageChange(currentPage - 1)">Précédente</a>
+    </li>
+    <li *ngFor="let page of getPageNumbers()">
+      <a type="button" [class.active]="page === currentPage" (click)="onPageChange(page)">{{ page }}</a>
+    </li>
+    <li [class.disabled]="currentPage === totalPages">
+      <a type="button" (click)="onPageChange(currentPage + 1)">Suivante</a>
+    </li>
+  </ul>
+</div>

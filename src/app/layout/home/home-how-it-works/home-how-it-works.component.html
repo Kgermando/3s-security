@@ -1,0 +1,62 @@
+<div class="section-full  p-t80 p-b50 bg-gray bg-no-repeat bg-cover bg-white"
+    style="background-image:url(assets/images/background/bg-map.png);"> 
+    <div class="container">
+        <!-- TITLE START-->
+        <div class="section-head text-center">
+            <h2 data-title="Welcome">{{_data.title}}</h2>
+            <div class="mt-separator-outer">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- TITLE END-->
+        <div class="section-content sx-how-it-work">
+            <div class="row">
+
+                <!-- block 1 -->
+                <div class="col-lg-4 col-md-6">
+
+                    @for(_item of _data.services1; track $index) {
+                        <div class="mt-box m-b30">
+                            <div class="mt-icon-box-wraper p-a30 left bg-white  hover-border-outer hover-border">
+                                <div class="icon-md radius m-b15">
+                                    <span class="icon-cell site-text-primary"><i class="{{_item.icon}}"></i></span>
+                                </div>
+                                <div class="icon-content">
+                                    <h4 class="mt-tilte  m-b15"><a href="page/about-us">{{_item.title}}</a></h4>
+                                    <p>{{_item.subtitle}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!-- block 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="mt-box m-b30">
+                        <div class="mt-media mid-img-verticle">
+                            <img src={{_data.section_image}} alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- block 3 -->
+                <div class="col-lg-4 col-md-12">
+
+                    @for(_item of _data.services2; track $index) {
+                        <div class="mt-box m-b30">
+                            <div class="mt-icon-box-wraper  p-a30 left bg-white  hover-border-outer hover-border">
+                                <div class="icon-md radius m-b15">
+                                    <span class="icon-cell  site-text-primary"><i class="{{_item.icon}}"></i></span>
+                                </div>
+                                <div class="icon-content">
+                                    <h4 class="mt-tilte  m-b15"><a href="page/about-us">{{_item.title}}</a></h4>
+                                    <p>{{_item.subtitle}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

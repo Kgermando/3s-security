@@ -1,0 +1,101 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">New Team</h1>
+</div>
+
+
+<div class="container">
+    <form (ngSubmit)="onSubmit()" enctype="multipart/form-data" >
+        <div class="row mb-5">
+            <div class="col-md-6 mb-3">
+                <label for="formFile" class="form-label">Image</label>
+                <input class="form-control" type="file" id="formFileMultiple" name="file" (change)="onFileSelected($event)"
+                   accept="image/*">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nom complet</label>
+                <input type="text" class="form-control" [maxlength]="50" [(ngModel)]="fullname" name="fullname" id="exampleFormControlInput1"
+                    placeholder="Votre titre">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Titre</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="title" name="title"
+                    id="exampleFormControlInput1" placeholder="Faite une petite description de votre contenu">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Collaboration</label>
+                <input type="number" class="form-control" [(ngModel)]="collaboration" name="collaboration"
+                    id="exampleFormControlInput1" placeholder="Faite une petite description de votre contenu">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Attitude positive</label>
+                <input type="number" class="form-control" [(ngModel)]="attitude_positive" name="attitude_positive"
+                    id="exampleFormControlInput1" placeholder="Faite une petite description de votre contenu">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Customer service</label>
+                <input type="number" class="form-control" [(ngModel)]="customer_service" name="customer_service"
+                    id="exampleFormControlInput1" placeholder="Faite une petite description de votre contenu">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Old experience</label>
+                <input type="number" class="form-control" [(ngModel)]="old_experience" name="old_experience"
+                    id="exampleFormControlInput1" placeholder="Faite une petite description de votre contenu">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" [maxLength]="50" [(ngModel)]="email" name="email"
+                    id="exampleFormControlInput1" placeholder="Email">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="phone" name="phone"
+                    id="exampleFormControlInput1" placeholder="Telephone">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Content</label>
+                <input type="text" class="form-control" [(ngModel)]="content" name="content"
+                    id="exampleFormControlInput1" placeholder="Parlez un plus de vous.">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Link facebook</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="link_facebook" name="link_facebook"
+                    id="exampleFormControlInput1" placeholder="link_facebooku">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Link X</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="link_x" name="link_x"
+                    id="exampleFormControlInput1" placeholder="link_x">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Link linkedin</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="link_linkedin" name="link_linkedin"
+                    id="exampleFormControlInput1" placeholder="link_linkedin">
+            </div>
+            <div class="col-md-12 mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Link youtube</label>
+                <input type="text" class="form-control" [maxLength]="50" [(ngModel)]="link_youtube" name="link_youtube"
+                    id="exampleFormControlInput1" placeholder="link_youtube">
+            </div>
+        </div>
+
+        @if (isLoading) {
+        <button class="btn btn-danger w-100 py-2" type="submit" disabled>
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+                <div class="progress m-b30 m-t10">  
+                    <div class="progress-bar site-bg-primary progress-bar-striped progress-bar-animated text-black"
+                        role="progressbar" [style.width.%]="uploadProgress" attr.aria-valuenow="{{uploadProgress}}"
+                        aria-valuemin="0" aria-valuemax="100">{{uploadProgress}}%</div>
+                </div>
+            </div>
+        </button>
+
+        } @else {
+        <button class="btn btn-primary w-100 py-2" type="submit">
+            Soumettre
+        </button>
+        } 
+
+    </form>
+
+</div>

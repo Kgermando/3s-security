@@ -1,0 +1,40 @@
+<div class="section-full p-t80 p-b80 bg-center bg-full-height bg-no-repeat bg-gray"
+    style="background-image:url(assets/images/background/bg-map.png);">
+    <div class="container">
+        <!-- TITLE START -->
+        <div class="section-head text-center">
+            <h2 data-title="Testimonials">{{_data.title}}</h2>
+            <div class="mt-separator-outer">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- TITLE END -->
+
+        <div class="section-content">
+            <div class="owl-carousel home-carousel-1">
+
+                @for(_item of _data.testimonials; track $index) {
+                <div class="item">
+                    <div class="testimonial-2 clearfix bg-white">
+
+                        <div class="testimonial-detail">
+                            <div class="testimonial-pic shadow"><img src="{{_item.image}}"
+                                    width="100" height="100" alt=""></div>
+                        </div>
+
+                        <div class="testimonial-text">
+                            <strong class="testimonial-name">{{_item.name}}</strong>
+                            <span class="testimonial-position">{{_item.designation}}</span>
+                            <span class="fa fa-quote-left"></span>
+                            <p> {{_item.description}}</p>
+                        </div>
+
+                    </div>
+                </div>
+                }
+                
+            </div>
+        </div>
+
+    </div>
+</div>

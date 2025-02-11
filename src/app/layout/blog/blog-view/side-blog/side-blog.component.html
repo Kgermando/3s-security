@@ -1,0 +1,79 @@
+<aside class="side-bar">
+
+    <!-- 1. SEARCH -->
+    <!-- <div class="widget">
+        <div class="search-bx">
+            <form role="search" method="post">
+                <div class="input-group">
+                    <input name="news-letter" type="text" class="form-control bg-gray" placeholder="Enter your keyword">
+                    <span class="input-group-btn">
+                        <button type="submit" class="site-button btn">Search</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="mt-divider bg-gray-dark"><i class="icon-dot c-square"></i></div> -->
+
+    <!-- 2. OUR GALLERY  -->
+    <div class="widget widget_gallery mfp-gallery clearfix">
+        <h4>Gallery</h4>
+        <ul>
+            @for (data of item.files; track $index) {
+                <li>
+                    <div class="mt-post-thum">
+                        <a [href]="data" class="mfp-link"><img
+                            [src]="data" alt="{{ item.title }} "></a>
+                    </div>
+                </li>
+            }
+        </ul>
+
+    </div>
+
+    <div class="mt-divider bg-gray-dark"><i class="icon-dot c-square"></i></div>
+
+    <!-- 3. RECENT POSTS -->
+    <div class="widget  recent-posts-entry">
+        <h4>Autres Posts</h4>
+        <div class="widget-post-bx">
+            @for (data of dataListBlog; track $index) {
+                <div class="widget-post clearfix">
+                    <div class="mt-post-media">
+                        <img [src]="data.files[0]" alt="{{ data.title }}"  >
+                    </div>
+                    <div class="mt-post-info">
+                        <div class="mt-post-meta">
+                            <ul>
+                                <li class="post-author">{{ data.CreatedAt | date: 'dd/MM/yyyy' }} </li>
+                            </ul>
+                        </div>
+                        <div class="mt-post-header">
+                            <h6 class="post-title">{{ data.title }}</h6>
+                        </div>
+    
+                    </div>
+                </div> 
+            }
+            
+        </div>
+    </div>
+ 
+    <div class="mt-divider bg-gray-dark"><i class="icon-dot c-square"></i></div>
+
+    <!-- 6. TAGS -->
+    <div class="widget  widget_tag_cloud">
+        <h4>Keyword</h4>
+        <div class="tagcloud">
+            @for (item of item.keyword; track $index) {
+                <a routerLink="/web/services">{{ item }} </a> 
+            }
+            
+        </div>
+    </div>
+    <div class="mt-divider bg-gray-dark"><i class="icon-dot c-square"></i></div>
+
+
+
+</aside>

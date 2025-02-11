@@ -1,0 +1,38 @@
+<div class="section-full bg-change-section overlay-wraper p-t80 p-b50">
+    <div class="overlay-main bg-secondry opacity-09"></div>
+    <div class="bg-changer">
+        @for(_item of _data.services; track $index) {
+        <div class="section-bg {{$index==0?'active':''}}" style="background-image:url('{{_item.image}}')"></div>
+        }
+    </div>
+    <div class="container">
+        <!-- TITLE START-->
+        <div class="section-head text-center text-white">
+            <h2 data-title="Services">{{_data.title}}</h2>
+            <div class="mt-separator-outer">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- TITLE END-->
+        <div class="section-content">
+            <div class="row d-flex justify-content-center">
+
+                @for(_item of _data.services; track $index) {
+                <div class="col-lg-4 col-md-6 m-b30">
+                    <div
+                        class="mt-icon-box-wraper center  p-a30 bgcall-block  bdr-1 bdr-solid bdr-primary hover-shadow">
+                        <div class="mt-icon-box-sm radius bdr-2 bdr-solid bdr-white m-b20">
+                            <span class="icon-cell  site-text-primary"><i class="{{_item.icon}}"></i></span>
+                        </div>
+                        <div class="icon-content">
+                            <h4 class="mt-tilte  m-b15 site-text-primary">{{_item.title}}</h4>
+                            <p class="text-white">{{_item.subtitle}}</p>
+                        </div>
+                    </div>
+                </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

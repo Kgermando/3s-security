@@ -1,0 +1,140 @@
+<!-- Banner -->
+<div class="mt-bnr-inr overlay-wraper" style="background-image:url('assets/images/banner/about-banner.png');">
+    <div class="overlay-main bg-black opacity-07"></div>
+    <div class="container">
+        <div class="mt-bnr-inr-entry">
+            <h1 class="text-white">Contact</h1>
+            <!-- Breadcrumb -->
+            <ul class="mt-breadcrumb breadcrumb-style-1">
+                <li><a href="/">Accueil</a></li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT DETAIL BLOCK -->
+<!-- <div class="section-full p-t80">
+    <div class="container"> 
+        <div class="section-content"> 
+            <div class="mt-box">
+                <div class="gmap-outline">
+                    <div class="google-map" style="width: 100%">
+                        <iframe height="460"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5543.044383174594!2d-4.351160307384558!3d15.326427456727867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a938897f87%3A0x77a53418bbd56c17!2s34%20St%20-%20Herald%20Sq!5e0!3m2!1sen!2sin!4v1658249652295!5m2!1sen!2sin"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="section-full p-t80">
+    <div class="container">
+        <div class="section-head">
+            <h2>Contactez-nous!</h2>
+            <div class="mt-separator-outer m-b30">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <div class="section-content m-b30">
+            <div class="row">
+
+                <!-- <div class="col-md-4 col-sm-12 m-b30">
+                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
+                        <div class="icon-sm m-b10"><i class="iconmoon-smartphone-1"></i></div>
+                        <div class="icon-content">
+                            <h4 class="site-text-primary">Phone number</h4>
+                            <p>(+243) 999 925 095</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-4 col-sm-12 m-b30">
+                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
+                        <div class="icon-sm m-b10"><i class="iconmoon-email"></i></div>
+                        <div class="icon-content">
+                            <h4 class="site-text-primary">Email address</h4>
+                            <p>contact&#64;smacodrc.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 m-b30">
+                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
+                        <div class="icon-sm m-b10"><i class="iconmoon-travel"></i></div>
+                        <div class="icon-content">
+                            <h4 class="site-text-primary">Address info</h4>
+                            <p>N°608, 07ème Rue , Limete residentiel, Kinshasa</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-full">
+    <div class="container">
+        <div class="section-head">
+            <h2>Ecrivez-nous! </h2>
+            <div class="mt-separator-outer m-b30">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- GOOGLE MAP & CONTACT FORM -->
+        <div class="section-content m-b50">
+            <!-- CONTACT FORM-->
+            <div class="mt-box">
+                <div class="p-a30 bg-gray radius-10 cons-contact-form-wrap">
+
+                    <form class="cons-contact-form contact-style-1" (ngSubmit)="sendMail()">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+
+                                    <input name="email" type="text" [(ngModel)]="email" class="form-control" required
+                                        placeholder="Email">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+
+                                    <input name="username" type="text" [(ngModel)]="subject" required
+                                        class="form-control" placeholder="Sujet">
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+
+                                    <textarea name="message" [(ngModel)]="body" rows="5" class="form-control " required
+                                        placeholder="Message"></textarea>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <button name="submit" type="submit" value="Submit" class="site-button-secondry">
+                                    Soumettre
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

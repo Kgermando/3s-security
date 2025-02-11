@@ -1,0 +1,100 @@
+<!-- Banner -->
+<div class="mt-bnr-inr overlay-wraper" style="background-image:url('assets/images/banner/banner4.jpg');">
+    <div class="overlay-main bg-black opacity-07"></div>
+    <div class="container">
+        <div class="mt-bnr-inr-entry">
+            <h1 class="text-white">Notre blog</h1>
+            <!-- Breadcrumb -->
+            <ul class="mt-breadcrumb breadcrumb-style-1">
+                <li><a href="/">Accueil</a></li>
+                <li>blog</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Blog Single Post -->
+@if (!isLoading && item) {
+<div class="section-full p-t80 p-b50">
+    <div class="container">
+        <div class="row">
+            <!-- Side Left -->
+            <div class="col-lg-8 col-md-12 m-b30">
+                <!-- Blog Post -->
+                <div class="blog-post date-style-2 blog-post-single">
+                    <div class="mt-post-media mt-img-effect overflow-hide">
+                        @if (item.files) {
+                        <img [src]="item.files[0]" alt="{{ item.title }}">
+                        }
+                    </div>
+                    <div class="post-description-area p-t30">
+                        <div class="mt-post-meta bdr-1 bdr-solid bdr-b-1 bdr-gray-light p-b20">
+                            <ul>
+                                <li class="post-date"> <i class="fa fa-calendar site-text-primary"></i>
+                                    <strong>{{item.UpdatedAt | date: 'dd'}}</strong>
+                                    <span>{{item.UpdatedAt | date: 'MM'}} {{ item.UpdatedAt | date: 'yyyy'}}</span>
+                                </li>
+                                <li class="post-author"><i class="fa fa-user site-text-primary"></i>
+                                    By <span>{{item.signature}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-post-title ">
+                            <h2 class="post-title">{{ item.title }}</h2>
+                        </div>
+
+                        <div class="mt-post-text">
+                            <p>
+                                {{ item.resume }}
+                            </p>
+
+                            <div [innerHTML]="item.content"></div>
+
+                        </div>
+
+                        <div class="mt-box">
+                            <div class="row  p-lr15">
+                                <h4 class="tagcloud pull-left m-t5 m-b0">Partager</h4>
+                                <div class="widget_social_inks">
+                                    <ul class="social-icons social-square m-b0">
+                                        <!-- <share-buttons theme="circles-dark"
+                                            [include]="['copy', 'facebook', 'email',  'youtube',  'linkedin', 'pinterest', 'instagram',  'sms', 'telegram', 'twitter', 'viber', 'vk', 'xing', 'whatsapp']"
+                                            [showIcon]="true"
+                                            [showText]="false"
+                                            url="https://rodrigo.kamada.com.br/"
+                                            description="Angular Share Buttons"
+                                            twitterAccount="rodrigokamada"
+                                            class="pt-5">
+                                          </share-buttons> -->
+
+                                        <li><a href="https://www.facebook.com/" class="fab fa-facebook"></a></li>
+                                        <li><a href="https://www.x.com/" class="fab fa-x-twitter"></a></li>
+                                        <li><a href="https://rss.com/" class="fa fa-rss"></a></li>
+                                        <li><a href="https://www.youtube.com/" class="fab fa-youtube"></a></li>
+                                        <li><a href="https://www.instagram.com/" class="fab fa-instagram"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Side Right -->
+            <div class="col-lg-4 col-md-12">
+                <app-side-blog [item]="item"></app-side-blog>
+            </div>
+
+        </div>
+    </div>
+</div>
+} @else {
+<div class="text-center">
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+}

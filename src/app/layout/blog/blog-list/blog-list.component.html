@@ -1,0 +1,91 @@
+<!-- Banner -->
+<div class="mt-bnr-inr overlay-wraper" style="background-image:url('assets/images/banner/about-banner.png');"> 
+    <div class="overlay-main bg-black opacity-07"></div>
+    <div class="container">
+        <div class="mt-bnr-inr-entry">
+            <h1 class="text-white">Notre blog</h1>
+            <!-- Breadcrumb -->
+            <ul class="mt-breadcrumb breadcrumb-style-1">
+                <li><a href="/">Accueil</a></li>
+                <li>blog</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Blog Grid -->
+<div class="section-full p-t80 p-b50">
+    <div class="container">
+
+        <div class="portfolio-wrap mt-blog-grid-3 row">
+
+            @for(data of dataList; track $index) { 
+            <div class="post masonry-item col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="blog-post blog-grid date-style-2 bdr-1 bdr-solid bdr-gray-light">
+                    <div class="mt-post-media">
+                        @if (data.files) {
+                        <a [routerLink]="['/web/blogs', data.title_url, 'view']">
+                            <img [src]="data.files[0]" alt="{{ data.title }}">
+                        </a>
+                        }
+                    </div>
+                    <div class="mt-post-info p-a30 p-m30">
+                        <div class="mt-post-meta bdr-1 bdr-solid bdr-b-1 bdr-gray-light p-b20">
+                            <ul>
+                                <li class="post-date">
+                                    <i class="fa fa-calendar site-text-primary"></i>
+                                    <strong>{{data.UpdatedAt | date: 'dd'}}</strong>
+                                    <span>{{data.UpdatedAt | date: 'MM'}} {{data.UpdatedAt | date: 'yyyy'}}</span>
+                                </li>
+                                <li class="post-author">
+                                    <i class="fa fa-user site-text-primary"></i>
+                                    <a routerLink="/web/team">Par <span>{{data.signature}}</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-post-title ">
+                            <h3 class="post-title ">
+                                <a [routerLink]="['/web/blogs', data.title_url, 'view']">
+                                    {{ data.title | truncate:40 }}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div class="mt-post-text">
+                            <p>{{data.resume | truncate:100}}</p>
+                        </div>
+                        <div class="mt-post-readmore m-b0">
+                            <a [routerLink]="['/web/blogs', data.title_url, 'view']" title="Voir plus" rel="bookmark"
+                                class="site-button-link">
+                                En savoir plus
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination-bx col-lg-12 clearfix ">
+            <ul class="pagination">
+                <li [class.disabled]="currentPage === 1">
+                    <a href="javascript:void(0);" (click)="onPageChange(currentPage - 1)">&laquo;</a>
+                </li>
+                <li [class.active]="page === currentPage" *ngFor="let page of getPageNumbers()">
+                    <a href="javascript:void(0);" [class.active]="page === currentPage" (click)="onPageChange(page)">
+                        {{ page }}
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" (click)="onPageChange(currentPage + 1)">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,44 @@
+<header class="site-header header-style-2 topbar-transparent mobile-sider-drawer-menu {{isActive?'active':''}}">
+    <div class="sticky-header main-bar-wraper">
+        <div class="main-bar">
+            <div class="container">
+                <div class="logo-header">
+                    <a routerLink="/web/bienvenue" class="s3-security-logo">
+                        <img src="assets/images/logo.png" width="216" height="37" alt="" />
+                    </a>
+                </div>
+
+                <!-- NAV Toggle Button -->
+                <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button"
+                    class="navbar-toggler collapsed" (click)="toggleMenu()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar icon-bar-first"></span>
+                    <span class="icon-bar icon-bar-two"></span>
+                    <span class="icon-bar icon-bar-three"></span>
+                </button>
+
+                <!-- ETRA Nav -->
+                <!-- <div class="extra-nav">
+                    <div class="extra-cell">
+                        <app-section-header-cart></app-section-header-cart>
+                    </div>
+                    <div class="extra-cell">
+                        <a id="#search" class="site-search-btn"><i class="fa fa-search"></i></a>
+                    </div>
+
+                </div> -->
+                <!-- SITE Search -->
+                <!-- <div id="search">
+                    <app-section-header-search></app-section-header-search>
+                </div> -->
+
+                <!-- MAIN Vav -->
+                <div class="header-nav navbar-collapse ">
+                    <app-header-nav></app-header-nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</header>

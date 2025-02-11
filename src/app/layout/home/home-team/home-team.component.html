@@ -1,0 +1,46 @@
+<div class="section-full text-center mt-our-team bg-gray p-t80 p-b50">
+    <div class="container">
+
+        <!-- TITLE START-->
+        <div class="section-head text-center">
+            <h2 data-title="Team">Notre Equipe</h2>
+            <div class="mt-separator-outer">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- TITLE END-->
+
+        <div class="section-content">
+            <div class="row">
+
+                @for(item of dataListteamList; track $index) {
+                <div class="col-md-4 col-sm-6 col-xs-6 col-xs-100pc  m-b30">
+                    <div class="mt-team-seven ">
+                        <div class="mt-team-media mt-img-effect off-color bg-white">
+                            <a [routerLink]="['/web/teams', item.ID, 'view']">
+                                <img [src]="item.image" class="" alt="{{item.fullname}}">
+                            </a>
+                        </div>
+                        <div class="mt-team-info text-center p-a30 bg-white">
+                            <h4 class="mt-team-title m-t0 m-b15">
+                                <a [routerLink]="['/web/teams', item.ID, 'view']"
+                                    class=" site-text-primary">{{item.fullname}}</a></h4>
+                            <p>{{item.title }}</p>
+                            <div class="social-share-btn-content team-one-show-hide">
+                                <ul class="social-icons social-square">
+                                    <li><a [href]="item.link_facebook" class="fab fa-facebook"></a></li>
+                                    <li><a [href]="item.link_x" class="fab fa-x-twitter"></a></li>
+                                    <li><a [href]="item.link_linkedin" class="fab fa-linkedin"></a></li>
+                                    <li><a [href]="item.link_youtube" class="fab fa-youtube"></a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+
+            </div>
+        </div>
+
+    </div>
+</div>

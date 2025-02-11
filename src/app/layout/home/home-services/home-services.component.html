@@ -1,0 +1,38 @@
+<div class="section-full bg-change-section overlay-wraper p-t80 p-b50">
+    <div class="overlay-main bg-secondry opacity-09"></div>
+    <div class="bg-changer">
+        @for(_item of _data.features; track $index) {
+        <div class="section-bg {{$index==0?'active':''}}" style="background-image:url('{{_item.image}}')"></div>
+        }
+    </div>
+    <div class="container">
+        <!-- TITLE START-->
+        <div class="section-head text-center text-white">
+            <h2 data-title="Choose us">{{_data.title}}</h2>
+            <div class="mt-separator-outer">
+                <div class="mt-separator site-bg-primary"></div>
+            </div>
+        </div>
+        <!-- TITLE END-->
+        <div class="section-content">
+            <div class="row">
+
+                @for(_item of _data.features; track $index) {
+                <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                    <div
+                        class="mt-icon-box-wraper  p-a30 bgcall-block hover-shadow hover-border-outer hover-border m-b30">
+                        <div class="icon-md radius m-b15">
+                            <span class="icon-cell  text-white"><i class="{{_item.icon}}"></i></span>
+                        </div>
+                        <div class="icon-content">
+                            <h4 class="mt-tilte  m-b15 site-text-primary">{{_item.title}}</h4>
+                            <p class="text-white">{{_item.subtitle}}</p>
+                        </div>
+                    </div>
+                </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

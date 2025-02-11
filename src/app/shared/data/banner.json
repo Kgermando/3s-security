@@ -1,0 +1,122 @@
+{
+    "about": {
+        "background": "about-banner.png", 
+        "title": "A Propos de Nous",
+        "crumb": "About"
+    },
+    "faq": {
+        "background": "about-banner.png",
+        "title": "FAQ",
+        "crumb": "Frequently Asked Questions"
+    }, 
+    "team": {
+        "background": "about-banner.png",
+        "title": "Our Team",
+        "crumb": "Our Team"
+    },
+    "teamDetail": {
+        "background": "about-banner.png",
+        "title": "Team Member",
+        "crumb": "Team Member Detail"
+    },
+    "contact1": {
+        "background": "about-banner.png",
+        "title": "Contactez-nous",
+        "crumb": "Contact"
+    },
+    "contact2": {
+        "background": "about-banner.png",
+        "title": "Contact 2",
+        "crumb": "Contact 2"
+    },
+    "gallery1": {
+        "background": "gallery-banner.jpg",
+        "title": "Gallery Grid 1",
+        "crumb": "Gallery Grid 1"
+    },
+    "gallery2": {
+        "background": "gallery-banner.jpg",
+        "title": "Gallery Grid 2",
+        "crumb": "Gallery Grid 2"
+    },
+    "error404": {
+        "background": "about-banner.jpg",
+        "title": "Error",
+        "crumb": "Error 404"
+    },
+    "footerFixed": {
+        "background": "about-banner.jpg",
+        "title": "Footer Fixed",
+        "crumb": "Footer Fixed"
+    },
+    "footerLight": {
+        "background": "about-banner.jpg",
+        "title": "Footer Light",
+        "crumb": "Footer Light"
+    },
+    "footerDark": {
+        "background": "about-banner.jpg",
+        "title": "Footer Dark",
+        "crumb": "Footer Dark"
+    },
+    "services": {
+        "background": "about-banner.png",
+        "title": "Services",
+        "crumb": "Services"
+    },
+    "serviceDetail": {
+        "background": "about-banner.png",
+        "title": "Service Details",
+        "crumb": "Service Details"
+    },
+    "blogList": {
+        "background": "blog-banner.jpg",
+        "title": "Blog List",
+        "crumb": "Blog List"
+    },
+    "blogListSidebar": {
+        "background": "blog-banner.jpg",
+        "title": "Blog List Sidebar",
+        "crumb": "Blog List Sidebar"
+    },
+    "blogGrid": {
+        "background": "about-banner.png",
+        "title": "Blogs",
+        "crumb": "Blogs"
+    },
+    "blogGridSidebar": {
+        "background": "blog-banner.jpg",
+        "title": "Blog Grid Sidebar",
+        "crumb": "Blog Grid Sidebar"
+    },
+    "blogPostSingle": {
+        "background": "blog-banner.jpg",
+        "title": "Blog Post",
+        "crumb": "Blog Post"
+    },
+    "shopProducts": {
+        "background": "product-banner.jpg",
+        "title": "Products",
+        "crumb": "Products"
+    },
+    "shopProductDetail": {
+        "background": "product-banner.jpg",
+        "title": "Product Details",
+        "crumb": "Product Details"
+    },
+    "shopCart": {
+        "background": "about-banner.jpg",
+        "title": "Shopping Cart",
+        "crumb": "Shopping Cart"
+    },
+    "shopWishlist": {
+        "background": "about-banner.jpg",
+        "title": "Wishlist",
+        "crumb": "Wishlist"
+    },
+    "shopCheckout": {
+        "background": "about-banner.jpg",
+        "title": "Checkout",
+        "crumb": "Checkout"
+    }
+}

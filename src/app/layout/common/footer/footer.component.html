@@ -1,0 +1,129 @@
+<footer class="site-footer {{theme}}">
+    <!-- Footer Top Part -->
+    <div class="footer-top overlay-wraper">
+        <div class="overlay-main"></div>
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_about">
+                        <h4 class="widget-title">A propos de l'entreprise</h4>
+                        <div class="logo-footer clearfix p-b15">
+                            <a routerLink="/web"><img src="assets/images/logo.png" width="171" height="49"
+                                    alt="" /></a>
+                        </div>
+                        <p>
+                            3s-security est une entreprise de sécurité privée qui offre des services de gardinanage, 
+                            de télésurveillance et des système d’alarmes.
+                        </p>
+                        <ul>
+                            <!-- <li> <i class="fa fa-phone site-text-primary"></i> <b class="p-lr5 text-uppercase">Tel :</b>
+                                (+243) 999 925 095 
+                            </li> -->
+                            <li><i class="fa fa-envelope site-text-primary"></i> <b class="p-lr5 text-uppercase">Email :
+                                </b>contact&#64;3s-securitydrc.com</li>
+                                <li><i class="fa fa-location-arrow site-text-primary"></i> <b
+                                    class="p-lr5 text-uppercase">Adresse :</b>
+                                    144 B, 30 juin Commune de Gombe Ville Province de Kinshasa
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Useful Links -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_services">
+                        <h4 class="widget-title">Liens utiles</h4>
+                        <ul>
+                            <li><a routerLink="/web/about">À propos de nous</a></li>
+                            <li><a routerLink="/web/teams">Notre équipe</a></li>
+                            <li><a routerLink="/web/services">Nos Services</a></li>
+                            <li><a routerLink="/web/blog/blog-list">Notre Blog</a></li>
+                            @if (authService.isAuthentification()) {
+                            <li>
+                                <a routerLink="/@admin">Admin</a>
+                            </li>
+                            <li>
+                                <a routerLink="/auth/login" (click)="authService.logout()">
+                                    Déconnexion
+                                </a>
+                            </li>
+                            } @else {
+                            <li>
+                                <a routerLink="/auth/login">Connexion</a>
+                            </li>
+
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <!-- Resent Post -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget recent-posts-entry-date">
+                        <h4 class="widget-title">Derniers Evenements</h4>
+                        <div class="widget-post-bx">
+                            @for (item of dataListBlog; track $index) {
+                                <div class="widget-post clearfix">
+                                    <div class="mt-post-media text-white  overflow-hide">
+                                        <img [src]="item.files[0]" alt="{{ item.title}}">
+                                    </div>
+                                    <div class="mt-post-info">
+                                        <div class="mt-post-header">
+                                            <div class="post-title">
+                                                <a [routerLink]="['/web/blogs', item.title_url, 'view']">
+                                                    {{ item.title | truncate:40 }}
+                                                </a></div>
+                                        </div>
+                                        <div class="mt-post-meta">
+                                            <ul>
+                                                <li class="post-author"><i class="fa fa-user site-text-primary"></i>By {{item.signature}}
+                                                </li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            } 
+                        </div>
+                    </div>
+                </div>
+                <!-- Instagram Feed -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_newsletter f-news-letter">
+                        <h4 class="widget-title">Newsletter</h4>
+                        <p>Entrer votre email pour rester informer.</p>
+                        <div class="newsletter-bx m-b30">
+                            <form role="search" (ngSubmit)="onSubmit()">
+                                <div class="input-group">
+                                    <input [(ngModel)]="newsletter" name="newsletter" class="form-control" 
+                                        placeholder="Entrer votre email ici..." type="email">
+                                    <span class="input-group-btn">
+                                        @if (isLoading) {
+                                            <div class="spinner-border" role="status">
+                                                <span class="visually-hidden">Loading...</span> 
+                                            </div>
+                                        } @else {
+                                            <button type="submit" class="site-button btn font-weight-600"><i
+                                                class="fa fa-paper-plane"></i></button>
+                                        } 
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Copyright Part -->
+    <div class="footer-bottom overlay-wraper">
+        <div class="overlay-main"></div>
+        <div class="container p-t30">
+
+            <div class="mt-footer-bot-center">
+                <span class="copyrights-text">© {{year}} 3S-SECURITY. All Rights Reserved. Designed By <a
+                        routerLink="https://ictech-dev.com" target="_blank"
+                        rel="Innovation and Creativity Technology">ICTECH</a></span>
+            </div>
+
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,24 @@
+
+<!-- Banner -->
+<div class="mt-bnr-inr overlay-wraper" style="background-image:url('assets/images/banner/about-banner.png');">
+    <div class="overlay-main bg-black opacity-07"></div>
+    <div class="container">
+        <div class="mt-bnr-inr-entry">
+            <h1 class="text-white">A Propos de nous!</h1>
+            <!-- Breadcrumb -->                            
+            <ul class="mt-breadcrumb breadcrumb-style-1">
+                <li><a href="/">Accueil</a></li>
+                <li>About</li>
+            </ul> 
+        </div>
+    </div>
+</div>
+
+<app-what-we-do [_data]="_data.sectionWhatWeDo"></app-what-we-do>
+
+<app-why-choose-us [_data]="_whyChoose_Skills"></app-why-choose-us>
+
+<app-about-us-services [_data]="_data.sectionServices"></app-about-us-services>
+
+<app-best-team [dataListteamList]="dataListteamList"></app-best-team>
+ 

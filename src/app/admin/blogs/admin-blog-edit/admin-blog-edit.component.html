@@ -1,0 +1,60 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Blogs edit</h1>
+</div>
+
+@if (item) {
+    <div class="container">
+        <p>{{ item.title }} </p>
+        <form (ngSubmit)="updateItem(item)" enctype="multipart/form-data" >
+            <div class="row mb-5">
+                <div class="col-md-6 mb-3">
+                    <label for="formFileMultiple" class="form-label">Images</label>
+                    <input class="form-control" type="file" id="formFileMultiple" name="files" (change)="onFileSelected($event)"
+                        multiple="true" accept="image/*">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Titre</label>
+                    <input type="text" class="form-control" [(ngModel)]="item.title" name="title" id="exampleFormControlInput1"
+                        placeholder="Votre titre">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Résumé</label>
+                    <input type="text" class="form-control" [maxLength]="200" [(ngModel)]="item.resume" name="resume"
+                        id="exampleFormControlInput1" placeholder="Faite un petit résumé de votre contenu">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Mot clé</label>
+                    <input type="text" class="form-control" [maxLength]="200" [(ngModel)]="item.keyword" name="keyword"
+                        id="exampleFormControlInput1" placeholder="Mettez ici les mot important pour les moteurs de reherche.">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Contenu</label>
+                    <div class="editor-container"> 
+                        <quill-editor [(ngModel)]="item.content" name="content" [ngModelOptions]="{standalone: false}"
+                            [modules]="quillModules" id="exampleFormControlTextarea1"></quill-editor>
+                    </div>
+                </div>
+            </div>
+    
+            @if (isLoading) {
+            <button class="btn btn-danger w-100 py-2" type="submit" disabled>
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                    <div class="progress m-b30 m-t10">  
+                        <div class="progress-bar site-bg-primary progress-bar-striped progress-bar-animated text-black"
+                            role="progressbar" [style.width.%]="uploadProgress" attr.aria-valuenow="{{uploadProgress}}"
+                            aria-valuemin="0" aria-valuemax="100">{{uploadProgress}}%</div>
+                    </div>
+                </div>
+            </button>
+    
+            } @else {
+            <button class="btn btn-primary w-100 py-2" type="submit">
+                Soumettre
+            </button>
+            } 
+    
+        </form>
+    
+    </div>
+}

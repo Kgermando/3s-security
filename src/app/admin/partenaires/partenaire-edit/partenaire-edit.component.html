@@ -1,0 +1,49 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Partenaire Edit</h1>
+</div>
+
+
+@if (item) {
+    <div class="container">
+        <p>{{ item.name }} </p>
+        <form (ngSubmit)="updateItem(item)" enctype="multipart/form-data" >
+            <div class="row mb-5">
+                <div class="col-md-6 mb-3">
+                    <label for="formFile" class="form-label">Image</label>
+                    <input class="form-control" type="file" id="formFileMultiple" name="file" (change)="onFileSelected($event)"
+                       accept="image/*">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                    <input type="text" class="form-control" [(ngModel)]="name" name="name" id="exampleFormControlInput1"
+                        placeholder="name">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Lien</label>
+                    <input type="text" class="form-control" [maxLength]="200" [(ngModel)]="link" name="link"
+                        id="exampleFormControlInput1" placeholder="link">
+                </div>
+            </div>
+    
+            @if (isLoading) {
+            <button class="btn btn-danger w-100 py-2" type="submit" disabled>
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                    <div class="progress m-b30 m-t10">  
+                        <div class="progress-bar site-bg-primary progress-bar-striped progress-bar-animated text-black"
+                            role="progressbar" [style.width.%]="uploadProgress" attr.aria-valuenow="{{uploadProgress}}"
+                            aria-valuemin="0" aria-valuemax="100">{{uploadProgress}}%</div>
+                    </div>
+                </div>
+            </button>
+    
+            } @else {
+            <button class="btn btn-primary w-100 py-2" type="submit">
+                Soumettre
+            </button>
+            } 
+    
+        </form>
+    
+    </div>
+}
