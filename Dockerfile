@@ -13,4 +13,3 @@ WORKDIR /usr/app
 COPY --from=build /app/src/dist/s3-security/ ./
 CMD node server/server.mjs
 EXPOSE 4000
- 
