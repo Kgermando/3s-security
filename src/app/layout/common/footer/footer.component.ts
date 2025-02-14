@@ -47,16 +47,16 @@ export class FooterComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.blogService.refreshDataList$.subscribe(() => {
-      this.fetchDataBlog();
-    });
-    this.fetchDataBlog();
-  }
+  //   this.blogService.refreshDataList$.subscribe(() => {
+  //     this.fetchDataBlog();
+  //   });
+  //   this.fetchDataBlog();
+  // }
 
-  fetchDataBlog() {
-    this.blogService.getAllLimit().subscribe(response => {
-      this.dataListBlog = response.data;
-    });
+  // fetchDataBlog() {
+  //   this.blogService.getAllLimit().subscribe(response => {
+  //     this.dataListBlog = response.data;
+  //   });
   }
 
   onSubmit() {

@@ -30,10 +30,10 @@ export class AboutComponent implements OnInit {
 
 
   ngOnInit(): void {
-   this.team2Service.refreshDataList$.subscribe(() => {
-      this.fetchDataTeam();
-    });
-    this.fetchDataTeam();
+  //  this.team2Service.refreshDataList$.subscribe(() => {
+  //     this.fetchDataTeam();
+  //   });
+  //   this.fetchDataTeam();
   }
 
 

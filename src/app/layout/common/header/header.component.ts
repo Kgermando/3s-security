@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
   /**
@@ -17,5 +17,12 @@ export class HeaderComponent {
    */
   toggleMenu() {
     this.isActive = !this.isActive;
+  }
+
+  /**
+   * Closes the navigation menu
+   */
+  closeMenu() {
+    this.isActive = false;
   }
 }

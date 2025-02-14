@@ -1,5 +1,5 @@
 <header class="site-header header-style-2 topbar-transparent mobile-sider-drawer-menu {{isActive?'active':''}}">
-    <div class="sticky-header main-bar-wraper">
+    <div class="sticky-header main-bar-wrapper">
         <div class="main-bar">
             <div class="container">
                 <div class="logo-header">
@@ -33,8 +33,8 @@
                 </div> -->
 
                 <!-- MAIN Vav -->
-                <div class="header-nav navbar-collapse ">
-                    <app-header-nav></app-header-nav>
+                <div class="header-nav navbar-collapse">
+                    <app-header-nav (click)="closeMenu()"></app-header-nav>
                 </div>
 
             </div>
