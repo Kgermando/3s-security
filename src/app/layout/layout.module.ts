@@ -31,6 +31,7 @@ import { ServViewComponent } from './serv/serv-view/serv-view.component';
 import { TeamViewComponent } from './team/team-view/team-view.component';
 import { SideBlogComponent } from './blog/blog-view/side-blog/side-blog.component';  
 import { SectionHome1ContactComponent } from './home/section-home1-contact/section-home1-contact.component';
+import { ServiceItemComponent } from './serv/service-item/service-item.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { SectionHome1ContactComponent } from './home/section-home1-contact/secti
     TeamViewComponent,
     SideBlogComponent,
     SectionHome1ContactComponent,
+    ServiceItemComponent,
   ],
   imports: [
     CommonModule,

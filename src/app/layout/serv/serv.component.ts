@@ -11,6 +11,7 @@ import { environment } from '../../../environments/environment';
 })
 export class ServComponent {
 
+  _data: any;
   _explore: any;
 
   dataList: ServModel[] = []
@@ -19,15 +20,16 @@ export class ServComponent {
   itemsPerPage = 10;
 
   constructor(private services: ServicesService) {
+    this._data = this.getDatas();
     this._explore = this.getExplore();
-   }
-
-  ngOnInit(): void {
-    this.services.refreshDataList$.subscribe(() => {
-      this.fetchData();
-    });
-    this.fetchData();
   }
+
+  // ngOnInit(): void {
+  //   this.services.refreshDataList$.subscribe(() => {
+  //     this.fetchData();
+  //   });
+  //   this.fetchData();
+  // }
 
   fetchData() {
     this.services.getPaginated(this.currentPage, this.itemsPerPage)
@@ -56,6 +58,10 @@ export class ServComponent {
     return link + url;
   }
 
+
+  getDatas() {
+    return services.sectionServices;
+  }
 
 
   getExplore() {

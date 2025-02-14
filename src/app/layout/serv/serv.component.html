@@ -24,40 +24,45 @@
             <div class="mt-separator-outer">
                 <div class="mt-separator site-bg-primary"></div>
             </div>
+
+            <p>{{_explore.subtitle}}</p>
         </div>
         <!-- TITLE END-->
         <div class="section-content">
             <div class="row d-flex justify-content-center">
 
-                @for(_item of _explore.services; track $index) {
-                <div class="col-lg-4 col-md-6">
-                    <div class="mt-icon-box-wraper m-b30  p-a30 center bg-white">
-                        <div class="mt-icon-box-sm site-bg-primary m-b20 radius-10">
-                            <span class="icon-cell text-white"><i class={{_item.icon}}></i></span>
-                        </div>
-                        <div class="icon-content">
-                            <h4 class="mt-tilte">{{_item.title}}</h4>
-                            <p>{{_item.subtitle}}</p>
+                @for(_item of _explore.services; track $index) { 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="mt-icon-box-wraper m-b30  p-a30 center bg-white">
+                            <div class="mt-icon-box-sm site-bg-primary m-b20 radius-10">
+                                <span class="icon-cell text-white"><i class={{_item.icon}}></i></span>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="mt-tilte">{{_item.title}}</h4>
+                                <p>{{_item.subtitle}}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 }
 
             </div>
         </div>
     </div>
 </div>
+
 <!-- Nos Services -->
-<div class="section-full bg-white p-t80 p-b50">
+<app-service-item [_data]="_data"></app-service-item>
+
+<!-- <div class="section-full bg-white p-t80 p-b50">
     <div class="container">
-        <!-- TITLE START-->
+  
         <div class="section-head text-center">
             <h2 data-title="Services">Nos Services</h2>
             <div class="mt-separator-outer">
                 <div class="mt-separator site-bg-primary"></div>
             </div>
         </div>
-        <!-- TITLE END-->
+     
         <div class="mfp-gallery clearfix">
             <div class="row d-flex justify-content-center">
 
@@ -71,9 +76,7 @@
                                     <a [routerLink]="['/web/services', data.title_url, 'view']">
                                         <i class="fa fa-external-link-square mt-icon-box-xs"></i>
                                     </a>
-                                    <!-- <a class="mfp-link" href={{data.image}}>
-                                        <i class="fa fa-search-plus mt-icon-box-xs"></i>
-                                    </a> -->
+                                   
                                 </div>
                             </div>
                         </div>
@@ -90,7 +93,7 @@
                 }
             </div>
 
-            <!-- Pagination -->
+        
             <div class="pagination-bx col-lg-12 clearfix ">
                 <ul class="pagination">
                     <li [class.disabled]="currentPage === 1">
@@ -110,4 +113,4 @@
 
 
     </div>
-</div>
+</div> -->

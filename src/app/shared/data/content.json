@@ -776,7 +776,7 @@
 			"title": "Qui sommes-nous ?",
 			"subtitle": "Présentation de la Société", 
 			"image": "assets/images/about.png", 
-			"description": "La société « 3 S - Security » est spécialisée dans la sécurité des personnes et des biens. Elle exerce dans des secteurs variés tel que: Gardiennage et Surveillance, Protection rapprochée, Événementiel, Accompagnement, Hôtesses, Contrôle d’accès, Télésurveillance & les systèmes d’alarmes. Nous organisons et remplissons tous les types de missions allant de la protection rapprochée des personnalités jusqu’au gardiennage, en passant par la sécurité événementielle (cérémonies ou réceptions) et la surveillance de points sensibles. Notre mot d’ordre est: « Protéger, Prévenir, Préserver », car notre premier travail est d’anticiper tout type de danger et être prêt à réagir. Ensuite, nous avons pour mission de calmer la situation et de garder le contrôle: veillez à l’ordre. Pour y arriver, il nous est très important, voir une obligation, de passer au préalable par un audit des besoins du clients en hommes, équipements ainsi qu’une visite d’inspection sur les lieux concernés. Ces audits sont menés par nos cadres hautement spécialisés qui conseillent et détermineront les mesures et les dispositifs à prendre afin de répondre plus efficacement aux besoins et objectifs fixés. Afin de répondre efficacement aux besoins du clients et satisfaire ses demandes, 3S - Security met un accent particulier sur la formation de son personnel. Pour vos événements ponctuels et vos besoins quotidiens, nos équipes sont uniquement constituées de professionnels. Qu’ils soient spécialistes de la protection rapprochée, maîtres chien, agents de sécurité, d’accueil ou voituriers, hommes ou femmes, nos agents sont parfaitement aptes à répondre à l’ensemble des missions que vous nous confiez: public ou privé. Quels que soient vos besoins, 3 S - Security répondra à vos demandes avec efficacité et sans faille. Nos équipes opèrent 24h/24 et 7jrs/7 dans la rapidité et l’efficacité."
+			"description": "La société « 3S-Security » est spécialisée dans la sécurité des personnes et des biens. Elle exerce dans des secteurs variés tel que: Gardiennage et Surveillance, Protection rapprochée, Événementiel, Accompagnement, Hôtesses, Contrôle d’accès, Télésurveillance & les systèmes d’alarmes. Nous organisons et remplissons tous les types de missions allant de la protection rapprochée des personnalités jusqu’au gardiennage, en passant par la sécurité événementielle (cérémonies ou réceptions) et la surveillance de points sensibles. Notre mot d’ordre est: « Protéger, Prévenir, Préserver », car notre premier travail est d’anticiper tout type de danger et être prêt à réagir. Ensuite, nous avons pour mission de calmer la situation et de garder le contrôle: veillez à l’ordre. Pour y arriver, il nous est très important, voir une obligation, de passer au préalable par un audit des besoins du clients en hommes, équipements ainsi qu’une visite d’inspection sur les lieux concernés. Ces audits sont menés par nos cadres hautement spécialisés qui conseillent et détermineront les mesures et les dispositifs à prendre afin de répondre plus efficacement aux besoins et objectifs fixés. Afin de répondre efficacement aux besoins du clients et satisfaire ses demandes, 3S - Security met un accent particulier sur la formation de son personnel. Pour vos événements ponctuels et vos besoins quotidiens, nos équipes sont uniquement constituées de professionnels. Qu’ils soient spécialistes de la protection rapprochée, maîtres chien, agents de sécurité, d’accueil ou voituriers, hommes ou femmes, nos agents sont parfaitement aptes à répondre à l’ensemble des missions que vous nous confiez: public ou privé. Quels que soient vos besoins, 3 S - Security répondra à vos demandes avec efficacité et sans faille. Nos équipes opèrent 24h/24 et 7jrs/7 dans la rapidité et l’efficacité."
 		},
 		"sectionWhyChooseUs": {
 			"title": "Pourquoi Nous ?",
@@ -1224,7 +1224,8 @@
 	},
 	"services": {
 		"sectionExplore": {
-			"title": "Explore Further",
+			"title": "MODE OPÉRATOIRE",
+			"subtitle": "Au recrutement d’agents sportifs / diplômés en arts martiaux, anciens militaires ou policiers",
 			"services": [
 				{
 					"icon": "flaticon-pencil",
@@ -1243,38 +1244,38 @@
 				}
 			]
 		},
-		"sectionServices": {
-			"title": "Our Services",
+		"sectionServices": { 
+			"title": "Nos Services",
 			"services": [
 				{
-					"image": "assets/images/our-work/pic1.jpg",
-					"title": "Cargo",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-search",
+					"title": "Etude et inspection de sécurité",
+					"subtitle": "Nous mettons à la disposition du client une équipe d’experts en sécurité afin de procéder à une étude de risques, menaces et dangers encourus. Ensuite, nous proposons des solutions."
 				},
 				{
-					"image": "assets/images/our-work/pic2.jpg",
-					"title": "Logistic Services",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-industry",
+					"title": "Sécurité Industrielle",
+					"subtitle": "Notre logistique nous permet d’assurer la sécurité de grandes industries de divers domaines : pharmaceutique, cosmétique, minières, etc. Nous mettons à la disposition du client une brigade canine, une brigade motorisé et des véhicules adaptés. Des rondes sont fréquemment organisés dans les sites du client afin d’assurer la sécurité maximale."
 				},
 				{
-					"image": "assets/images/our-work/pic3.jpg",
-					"title": "Storage",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-cogs",
+					"title": "Sécurité Mécatronique",
+					"subtitle": "Une équipe des spécialistes en systèmes de sécurité mécatronique est mise à la disposition de nos clients et partenaires pour une sécurité efficace, ciblée et adaptée aux défis du client. Nos équipements ultra-modernes sont mis à disposition du client : systèmes de détection d’intrusion, systèmes d’alarmes et de détection d’incendie, systèmes de contrôle d’accès et de surveillance camera CCTV, etc."
 				},
 				{
-					"image": "assets/images/our-work/pic4.jpg",
-					"title": "Ground Transport",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-shield-alt",
+					"title": "Sécurité et Gardiennage",
+					"subtitle": "Nos agents très bien formés sont déployés et mis au services du client pour sécuriser les personnes et leurs biens dans les domaines spécifiques. Ils sont aussi, à la demande du client, accompagnés des maîtres-chiens."
 				},
 				{
-					"image": "assets/images/our-work/pic5.jpg",
-					"title": "Trucking Services",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-dog",
+					"title": "Brigade canine",
+					"subtitle": "A la demande du client, nous mettons à sa disposition une brigade canine bien formé et prêt à service dans un domaine spécifique : aéroport, gare, concession, site minier, etc."
 				},
 				{
-					"image": "assets/images/our-work/pic6.jpg",
-					"title": "Warehousing",
-					"subtitle": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+					"icon": "fa-solid fa-truck",
+					"title": "Convoyage de Fonds",
+					"subtitle": "Dotés des véhicules spéciaux, d’un équipement spécialisé ainsi qu’une équipe bien formée, nous assurons le cash-transit ainsi que le convoyage des fonds de nos partenaires partout sur le territoire national."
 				}
 			]
 		},

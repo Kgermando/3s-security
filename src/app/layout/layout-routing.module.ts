@@ -19,38 +19,47 @@ const routes: Routes = [
       {
         path: 'bienvenue',
         component: HomeComponent,
+        title: 'Page de bienvenue 3S-security',
       },
       {
         path: 'about',
         component: AboutComponent,
+        title: 'A propos de 3S-security',
       },
       {
         path: 'contact',
         component: ContactComponent,
+        title: 'Contactez-nous',
       },
       {
         path: 'services',
         component: ServComponent,
+        title: 'Nos services',
       },
       {
         path: 'services/:title_url/view',
         component: ServViewComponent,
+        title: 'Nos services',
       },
       {
         path: 'blogs',
         component: BlogListComponent,
+        title: 'Nos blogs',
       },
       { 
         path: 'blogs/:title_url/view',
         component: BlogViewComponent,
+        title: 'Nos blogs',
       },
       {
         path: 'teams',
         component: TeamComponent,
+        title: 'Notre équipe',
       },
       {
         path: 'teams/:id/view',
         component: TeamViewComponent,
+        title : 'Notre équipe',
       },
       {
         path: '',

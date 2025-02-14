@@ -19,7 +19,8 @@ export class AboutComponent implements OnInit {
 
  dataListteamList: TeamModel[] = [];
  
- constructor(private aboutService: AboutService,
+ constructor(
+  private aboutService: AboutService,
   private team2Service: Team2Service,
  ) {
   this._data = this.getDatas();

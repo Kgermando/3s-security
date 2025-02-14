@@ -20,11 +20,15 @@
                             <!-- <li> <i class="fa fa-phone site-text-primary"></i> <b class="p-lr5 text-uppercase">Tel :</b>
                                 (+243) 999 925 095 
                             </li> -->
-                            <li><i class="fa fa-envelope site-text-primary"></i> <b class="p-lr5 text-uppercase">Email :
-                                </b>contact&#64;3s-securitydrc.com</li>
-                                <li><i class="fa fa-location-arrow site-text-primary"></i> <b
-                                    class="p-lr5 text-uppercase">Adresse :</b>
-                                    144 B, 30 juin Commune de Gombe Ville Province de Kinshasa
+                            <li><i class="fa fa-envelope site-text-primary"></i>
+                                 <b class="p-lr5 text-uppercase">Email :  </b>
+                                <a href="mailto:contact@3s-securitydrc.com">
+                                    contact&#64;3s-securitydrc.com
+                                </a>
+                            </li>
+                            <li><i class="fa fa-location-arrow site-text-primary"></i> <b
+                                class="p-lr5 text-uppercase">Adresse :</b>
+                                144 B, 30 juin Commune de Gombe Ville Province de Kinshasa
                             </li>
                         </ul>
                     </div>
@@ -57,34 +61,37 @@
                     </div>
                 </div>
                 <!-- Resent Post -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="widget recent-posts-entry-date">
-                        <h4 class="widget-title">Derniers Evenements</h4>
-                        <div class="widget-post-bx">
-                            @for (item of dataListBlog; track $index) {
-                                <div class="widget-post clearfix">
-                                    <div class="mt-post-media text-white  overflow-hide">
-                                        <img [src]="item.files[0]" alt="{{ item.title}}">
-                                    </div>
-                                    <div class="mt-post-info">
-                                        <div class="mt-post-header">
-                                            <div class="post-title">
-                                                <a [routerLink]="['/web/blogs', item.title_url, 'view']">
-                                                    {{ item.title | truncate:40 }}
-                                                </a></div>
+                 @if (dataListBlog.length > 0) {
+                    <div class="col-lg-3 col-md-6">
+                        <div class="widget recent-posts-entry-date">
+                            <h4 class="widget-title">Derniers Evenements</h4>
+                            <div class="widget-post-bx">
+                                @for (item of dataListBlog; track $index) {
+                                    <div class="widget-post clearfix">
+                                        <div class="mt-post-media text-white  overflow-hide">
+                                            <img [src]="item.files[0]" alt="{{ item.title}}">
                                         </div>
-                                        <div class="mt-post-meta">
-                                            <ul>
-                                                <li class="post-author"><i class="fa fa-user site-text-primary"></i>By {{item.signature}}
-                                                </li> 
-                                            </ul>
+                                        <div class="mt-post-info">
+                                            <div class="mt-post-header">
+                                                <div class="post-title">
+                                                    <a [routerLink]="['/web/blogs', item.title_url, 'view']">
+                                                        {{ item.title | truncate:40 }}
+                                                    </a></div>
+                                            </div>
+                                            <div class="mt-post-meta">
+                                                <ul>
+                                                    <li class="post-author"><i class="fa fa-user site-text-primary"></i>By {{item.signature}}
+                                                    </li> 
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            } 
+                                } 
+                            </div>
                         </div>
                     </div>
-                </div>
+                 }
+                
                 <!-- Instagram Feed -->
                 <div class="col-lg-3 col-md-6">
                     <div class="widget widget_newsletter f-news-letter">
