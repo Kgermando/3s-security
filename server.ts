@@ -25,6 +25,11 @@ export function app(): express.Express {
     index: 'index.html',
   }));
 
+  // Serve sitemap.xml
+  server.get('/sitemap.xml', (req, res) => {
+    res.sendFile(join(browserDistFolder, 'sitemap.xml'));
+  });
+
   // All regular routes use the Angular engine
   server.get('**', (req, res, next) => {
     const { protocol, originalUrl, baseUrl, headers } = req;
