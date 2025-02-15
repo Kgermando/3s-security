@@ -20,8 +20,8 @@
                         <div class="mt-info bg-white text-left p-a20 {{$index==0?'m-b30':''}}">
                             <h4>{{_item.title}}</h4>
                             <p>{{_item.description}}</p>
-                            <a href="services"
-                                class="site-button-link site-text-primary font-weight-600">En savoir plus</a>
+                            <!-- <a href="services"
+                                class="site-button-link site-text-primary font-weight-600">En savoir plus</a> -->
                         </div>
                     </div>
                     }
@@ -49,7 +49,7 @@
                             @for(_item of _data.sectionSkills.features; track $index) {
                             <span class="progressText text-black"><b>{{_item.title}}</b></span>
                             <div class="progress m-b30 m-t10">  
-                                <div class="progress-bar site-bg-primary progress-bar-striped progress-bar-animated text-black"
+                                <div class="progress-bar site-bg-bleu progress-bar-striped progress-bar-animated text-black"
                                     role="progressbar" [style.width.%]="_item.count" attr.aria-valuenow="{{_item.count}}"
                                     aria-valuemin="0" aria-valuemax="100">{{_item.count}}%</div>
                             </div>
