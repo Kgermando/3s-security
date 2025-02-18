@@ -30,6 +30,11 @@ export function app(): express.Express {
     res.sendFile(join(browserDistFolder, 'sitemap.xml'));
   });
 
+  // Serve robots.txt
+  server.get('/robots.txt', (req, res) => {
+    res.sendFile(join(browserDistFolder, 'robots.txt'));
+  });
+
   // All regular routes use the Angular engine
   server.get('**', (req, res, next) => {
     const { protocol, originalUrl, baseUrl, headers } = req;
